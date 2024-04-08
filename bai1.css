@@ -1,0 +1,317 @@
+body{
+    background-color: ghostwhite;
+    font-size: 16px;
+}
+.container-fluid{
+    max-width: 87.5rem;
+    font-size: 1rem;
+}
+.size{
+    font-size: 0.875rem;
+}
+.navbar-brand{
+    filter: drop-shadow(3px 3px 1px rgba(0,0,0,0.5)) ;
+}
+.nav-link:hover{
+    background-color: green;
+}
+.collapse .navbar-nav .nav-link{
+    padding: 0.75rem 1rem;
+}
+#demo.carousel{
+    margin-top: 1.25rem;
+}
+.menu{
+    justify-content: space-between;
+    width: 100%;
+}
+.row{
+    margin: 20px 55px;
+}
+.card{
+    position: relative;
+    margin: 0.625rem 0;
+}
+.card img{
+    height: 21.875rem;
+    object-fit: cover;
+}
+.card-body{
+    text-align: center;
+}
+.card-body h4{
+    color: gray;
+    font-size: 1rem;
+}
+.card-body p{
+    color: grey;
+    margin-top: 0;
+    font-size: 0.875rem;
+}
+.card-body dl dd{
+    color: grey;
+}
+.card-body dl dt{
+    font-weight: bold;
+    color: gray;
+    font-size: 1.2rem;
+}
+.card-body button{
+    color: white;
+    background-color: lightskyblue;
+    border: none;
+    padding: 0.625rem 0.625rem;
+    font-weight: bold;
+}
+.sale{
+    display: flex;
+    position: absolute;
+    top: 18.75rem;
+    left: 0px;
+}
+.new{
+    color: white;
+    background-color: rgb(30, 195, 220);
+    font-weight: bold;
+    display: block;
+    padding: 0.3125rem 0.3125rem;
+}
+.sel{
+    color: white;
+    background-color: firebrick;
+    font-weight: bold;
+    display: block;
+    padding: 0.3125rem 0.3125rem;
+}
+.GACH{
+    border: 0.1px solid gray;
+    width: 30%;
+    height: 0px;
+    margin: auto 10px;
+}
+.card-body button i{
+    padding-right: 5px;
+}
+.section2{
+    margin-top: 5%;
+    height: 12.5rem;
+    color: white;
+    position: relative;
+    display: flex;
+    place-content: center;
+    align-items: center;
+}
+.section2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(50%) contrast(90%);
+}
+.section2 h2,
+.section2 p{
+    position: absolute;
+}
+.section2 p{
+    margin-top: 5rem;
+}
+.row h5{
+    border-bottom: 2px solid gainsboro;
+    padding: 10px 0px;
+}
+.col-lg-3 p,
+.col-lg-2 p{
+    color: gray;
+}
+.col-lg-3 input{
+    border: 1px solid gainsboro;
+    padding: 8px;
+    width: 100%;
+    margin: 10px 0px;
+}
+.col-lg-3 button{
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    background-color: rgb(59, 157, 59);
+    padding: 8px 0px;
+}
+.col-lg-3 button:hover{
+    background-color: green;
+}
+.circle{
+    margin: 10px 0px;
+    font-size: 150%;
+    color: gray;
+}
+.circle i{
+    margin-right: 8px;
+}
+.col-lg-2,
+.col-lg-3{
+    margin-bottom: 10px;
+}
+.color{
+    background-color: white;
+    padding-top: 20px;
+}
+.footer{
+    border-top: 2px solid gray;
+    color: gray;
+    clear: both;
+    background-color: gainsboro;
+    padding: 0.625rem 3.4375rem;
+}
+.credit{
+    font-size: 150%;
+}
+@media only screen and (max-width: 570px) {
+    .row{
+        margin: 20px 10px;
+    }
+    .footer{
+        padding: 0.265rem 0.265rem;
+    }
+}
+.sect{
+    margin-top: 150px;
+}
+.address{
+    margin: 0px 60px;
+    border: 1px solid gray;
+    background-color: gainsboro;
+    padding: 8px 0px;
+    color: gray;
+}
+.address a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 10px;
+}
+.shopping-cart{
+    margin: 30px 60px;
+}
+.cart{
+    font-size: 200%;
+}
+.back{
+    font-size: 110%;
+    font-weight: 500;
+    margin: auto 0px;
+}
+.shopping-cart i{
+    margin-right: 10px;
+}
+.table{
+    border: 1px solid gainsboro;
+    background-color: white;
+}
+.title{
+    background-color: grey;
+    border-bottom: 1px solid gainsboro;
+}
+.pro,
+.qnt,
+.discount,
+.total{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90%;
+}
+.details{
+    width: 40%;
+    align-items: center;
+}
+.sanpham{
+    border-bottom: 1px solid gainsboro;
+    padding: 10px;
+}
+.sanpham .pro{
+    height: 150px;
+    object-fit: cover;
+}
+.title .details{
+    place-content: center;
+}
+.details i{
+    font-size: 200%;
+}
+.qnt p{
+    padding: 5px;
+    border: 1px solid gainsboro;
+    margin: 8px;
+}
+.btn button{
+    padding: 5px;
+    color: white;
+    background-color: gray;
+    border: none;
+    margin-bottom: 20px;
+}
+.btn button i{
+    padding: 8px;
+}
+.table2{
+    border: 1px solid gainsboro;
+    background-color: white;
+    padding: 10px;
+    margin: 15px 0px;
+}
+.col-md-3 button{
+    background-color: rgb(37, 172, 37);
+    border: none;
+    color: white;
+    width: 100%;
+    padding: 8px;
+}
+.nd{
+    border-bottom: 1px solid gainsboro;
+    align-items: center;
+}
+.nd p{
+    padding-top: 10px;
+}
+.coupon input{
+    border: 1px solid gainsboro;
+    margin: 0;
+}
+.coupon{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+}
+.coupon button{
+    padding: 0;
+    margin: 0;
+}
+.col-md-3 button:hover{
+    background-color: green;
+}
+@media only screen and (max-width: 600px){
+    .address{
+        margin: 0px 15px;
+    }
+    .shopping-cart{
+        margin: 30px 15px;
+        font-size: 80%;
+    }
+    .col-lg-9{
+        padding: 0px;
+    }
+    .title{
+        font-size: 80%;
+    }
+    .sanpham{
+        font-size: 80%;
+    }
+    .sanpham .details i{
+        font-size: 100%;
+    }
+    .sanpham .pro{
+        height: 80px;
+    }
+}
